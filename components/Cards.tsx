@@ -5,7 +5,7 @@ import Image from 'next/image'
 //assetes
 
 import image1 from '../public/assets/images/image1.png'
-import image2 from '../public/assets/images/image2.png'
+import image2 from '../public/assets/images/Image2.png'
 import image3 from '../public/assets/images/image3.png'
 
 const Cards = () => {
