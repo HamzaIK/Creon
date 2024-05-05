@@ -1,0 +1,42 @@
+.button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.button.connect::after, .button.connect::before{
+    content: 'Connect';
+    position: absolute;
+    transition: all 0.3s;
+   
+    top: 0;
+    line-height: 2;
+
+}
+.button.connect:hover::after{
+    top: -1.55vw;
+    
+}
+.button.connect::before{
+    top: 1.55vw;
+}
+.button.connect:hover::before{
+    top: 0;
+}
+.button.connect:hover{
+    
+    background-color: #3D8BFF;
+    border-color: #3D8BFF;
+}
+
+
+.visible{
+    display: block;
+    transition: all 0.3s;
+}
+.invisible{
+    display: none;
+    transition: all 0.3s;
+}
