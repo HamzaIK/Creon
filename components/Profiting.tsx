@@ -1,5 +1,5 @@
 import React from 'react'
-import video2 from '../public/assets/videos/creon-logo.mp4'
+import video2 from '@/public/assets/videos/creon-logo.mp4'
 
 const Profiting = () => {
   return (

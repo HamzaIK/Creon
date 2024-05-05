@@ -1,6 +1,6 @@
 import React from 'react'
 
-import headervideo from '../public/assets/videos/main-background-video.mp4'
+import headervideo from '@/public/assets/videos/main-background-video.mp4'
 
 
 const Header = () => {

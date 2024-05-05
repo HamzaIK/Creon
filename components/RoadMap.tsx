@@ -6,7 +6,7 @@ import image4 from '../public/assets/images/image4.png'
 import image5 from '../public/assets/images/image5.png'
 import image6 from '../public/assets/images/image6.png'
 
-import video3 from '../public/assets/videos/roadmap-video.mp4'
+import video3 from '@/public/assets/videos/roadmap-video.mp4'
 
 const RoadMap = () => {
   return (
