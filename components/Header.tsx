@@ -1,6 +1,6 @@
 import React from 'react'
 
-import headervideo from '@/public/assets/videos/main-background-video.mp4'
+
 
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
 
 
 
-        <video src={headervideo} loop muted autoPlay preload="metadata" className='h-full -z-40 top-0 absolute object-cover w-full  ' />
+        <video src={require("@/public/assets/videos/main-background-video.mp4")} loop muted autoPlay preload="metadata" className='h-full -z-40 top-0 absolute object-cover w-full  ' />
         <div className="absolute top-0 w-full  h-full bg-gradient-to-t from-black via-transparent " />
 
 

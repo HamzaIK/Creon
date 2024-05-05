@@ -1,6 +1,5 @@
 import React from 'react'
 
-import video4 from '../public/assets/videos/nft-video.mp4'
 
 const Pass = () => {
     return (
@@ -37,7 +36,7 @@ const Pass = () => {
             </div>
             <div className='relative' >
             <div className="absolute top-0 w-full h-10 bg-gradient-to-b from-black "></div>
-            <video src={video4}  loop muted autoPlay   className='xl:h-full h-[110vw]  object-cover w-full  ' />
+            <video src={require("../public/assets/videos/nft-video.mp4")} loop muted autoPlay preload="metadata" className='xl:h-full h-[110vw]  object-cover w-full  ' />
             <div className="absolute bottom-0 w-full h-10 bg-gradient-to-t from-black "></div>
             </div>
         </div>
