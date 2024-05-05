@@ -12,7 +12,7 @@ const Profiting = () => {
   </h3>
   <div className='xl:flex items-center '>
     
-    <video src={require("../public/creon-logo.mp4")} height={200} loop muted autoPlay preload="metadata" className=' -z-40 top-0 my-5 xl:my-0 rounded-lg object-cover xl:w-[49.323vw] w-full xl:h-[25.26vw] mr-8   ' />
+    <video src={"https://res.cloudinary.com/dsztrskv1/video/upload/v1714951970/creon-logo_qwncl4.mp4"} height={200} loop muted autoPlay preload="metadata" className=' -z-40 top-0 my-5 xl:my-0 rounded-lg object-cover xl:w-[49.323vw] w-full xl:h-[25.26vw] mr-8   ' />
     <div className='relative '>
     <div className="absolute  left-0 h-full w-px bg-[#13171D] "></div>
     <div className="absolute  right-0 h-full w-px bg-[#13171D] "></div>

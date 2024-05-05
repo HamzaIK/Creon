@@ -30,7 +30,7 @@ const Header = () => {
 
 
 
-        <video src={require("@/public/main-background-video.mp4")} loop muted autoPlay preload="metadata" className='h-full -z-40 top-0 absolute object-cover w-full  ' />
+        <video src={'https://res.cloudinary.com/dsztrskv1/video/upload/v1714951963/main-background-video_ipkn0e.mp4'} loop muted autoPlay preload="metadata" className='h-full -z-40 top-0 absolute object-cover w-full  ' />
         <div className="absolute top-0 w-full  h-full bg-gradient-to-t from-black via-transparent " />
 
 

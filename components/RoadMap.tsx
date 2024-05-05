@@ -54,7 +54,7 @@ const RoadMap = () => {
         </div>
         <div className="absolute top-0 w-full  h-full bg-gradient-to-b -z-10 from-black via-transparent " />
 
-        <video className='absolute -z-20 opacity-30 object-cover bottom-0 h-full  xl:top-0' src={require('../public/roadmap-video.mp4')} loop muted autoPlay preload="metadata" ></video>
+        <video className='absolute -z-20 opacity-30 object-cover bottom-0 h-full  xl:top-0' src={"https://res.cloudinary.com/dsztrskv1/video/upload/v1714952010/roadmap-video_pz0t1t.mp4"} loop muted autoPlay preload="metadata" ></video>
         
     </div>
   )
