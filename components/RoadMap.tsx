@@ -6,6 +6,8 @@ import image4 from '../public/assets/images/image4.png'
 import image5 from '../public/assets/images/image5.png'
 import image6 from '../public/assets/images/image6.png'
 
+import video3 from '../public/assets/videos/roadmap-video.mp4'
+
 const RoadMap = () => {
   return (
     <div className='mt-24 relative  '>
@@ -53,7 +55,7 @@ const RoadMap = () => {
         </div>
         <div className="absolute top-0 w-full  h-full bg-gradient-to-b -z-10 from-black via-transparent " />
 
-        <video className='absolute -z-20 opacity-30 object-cover bottom-0 h-full  xl:top-0' src={require('../public/assets/videos/roadmap-video.mp4')} loop muted autoPlay preload="metadata" ></video>
+        <video className='absolute -z-20 opacity-30 object-cover bottom-0 h-full  xl:top-0' src={video3} loop muted autoPlay preload="metadata" ></video>
         
     </div>
   )
